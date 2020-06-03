@@ -36,7 +36,7 @@ else:
 #var_description = +file.read()
 #print(var_description)
 
-var_description = 'Please drop following schemas:\n'+file.read()
+var_description = 'Please drop following schemas:\n# '+file.read()
 
 #print(file_content_list)
 
@@ -88,6 +88,7 @@ def select_project():
 
 	try:
 		WebDriverWait(driver,2).until(EC.element_to_be_clickable((By.LINK_TEXT ,"Verscend DBA (VHTDBA)"))).click()
+		
 		#driver.find_element_by_link_text('Verscend DBA (VHTDBA)').click()
 		var_found = True
 		print('Verscend DBA selected...')
@@ -99,6 +100,8 @@ def select_project():
 		project.click()
 		project.send_keys(var_verscend_str)	
 		#print('Searching for Verscend DBA (VHTDBA)...')
+
+
 
 
 def check_project_field():
@@ -202,6 +205,7 @@ element = wikiedit.find_element_by_tag_name("iframe")
 element.click()
 time.sleep(2)
 element.send_keys(var_description)
+element.send_keys(Keys.BACKSPACE)
 
 
 # Submit Part
@@ -216,7 +220,3 @@ print('create-issue-submit')
 file.truncate(0)
 
 print('file cleared !!')
-
-
-
-
