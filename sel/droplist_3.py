@@ -83,6 +83,7 @@ def login():
 
 
 def select_project():
+	time.sleep(5)
 	global var_found
 	#global var_verscend_str
 
@@ -212,7 +213,7 @@ element.send_keys(Keys.BACKSPACE)
 
 print(WebDriverWait(driver,60).until(EC.element_to_be_clickable((By.ID ,"create-issue-submit"))))
 
-# WebDriverWait(driver,60).until(EC.element_to_be_clickable((By.ID ,"create-issue-submit"))).submit()
+#WebDriverWait(driver,60).until(EC.element_to_be_clickable((By.ID ,"create-issue-submit"))).submit()
 
 
 print('create-issue-submit')

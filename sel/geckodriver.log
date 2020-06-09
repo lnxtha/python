@@ -3303,3 +3303,46 @@ webdriverClickElement@chrome://marionette/content/interaction.js:182:31
 1591193030570	Marionette	WARN	TLS certificate errors will be ignored for this session
 1591193411199	Marionette	INFO	Stopped listening on port 35673
 1591193412319	Marionette	INFO	Stopped listening on port 45533
+1591593800139	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.gOk0jx90Tc1A"
+1591593805533	Marionette	INFO	Listening on port 38561
+1591593805571	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://jira2.cotiviti.com/s/d41d8cd98f00b204e9800998ecf8427e-CDN/-1ke5r3/805004/0a9bcc66822c507ebd7282fc3d66e03d/4.1.8/_/download/resources/com.atlassian.jira.plugins.jira-editor-plugin:tinymce/tinymce.js?batch=false, line 10: TypeError: d is undefined
+1591593890376	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31
+1591594003742	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.CUUVz3cc5Ys9"
+1591594009281	Marionette	INFO	Listening on port 32849
+1591594009351	Marionette	WARN	TLS certificate errors will be ignored for this session
+1591594097303	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31
+1591596212293	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.VaHFBBuU6mjC"
+1591596217843	Marionette	INFO	Listening on port 41591
+1591596217949	Marionette	WARN	TLS certificate errors will be ignored for this session
+1591596222383	Marionette	INFO	Stopped listening on port 32849
+1591596224467	Marionette	INFO	Stopped listening on port 38561
+1591596312538	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31
+1591596366022	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.0nWLv96zYYeu"
+1591596370414	Marionette	INFO	Listening on port 41165
+1591596370468	Marionette	WARN	TLS certificate errors will be ignored for this session
+1591596464359	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31
+1591596521059	Marionette	INFO	Stopped listening on port 41165
+JavaScript error: https://jira2.cotiviti.com/s/de36d8ffe1a833ee931a214fd1458055-CDN/-1ke5r3/805004/0a9bcc66822c507ebd7282fc3d66e03d/598a6a2f9a3fd1d399e2e1b453de6bed/_/download/contextbatch/js/atl.dashboard,atl.general,jira.general,jira.global,atl.global,jira.dashboard,-_super/batch.js?agile_global_admin_condition=true&jag=true&jaguser=true&locale=en-US&whisper-enabled=true, line 3623: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: https://jira2.cotiviti.com/s/de36d8ffe1a833ee931a214fd1458055-CDN/-1ke5r3/805004/0a9bcc66822c507ebd7282fc3d66e03d/598a6a2f9a3fd1d399e2e1b453de6bed/_/download/contextbatch/js/atl.dashboard,atl.general,jira.general,jira.global,atl.global,jira.dashboard,-_super/batch.js?agile_global_admin_condition=true&jag=true&jaguser=true&locale=en-US&whisper-enabled=true, line 3623: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: https://jira2.cotiviti.com/s/de36d8ffe1a833ee931a214fd1458055-CDN/-1ke5r3/805004/0a9bcc66822c507ebd7282fc3d66e03d/598a6a2f9a3fd1d399e2e1b453de6bed/_/download/contextbatch/js/atl.dashboard,atl.general,jira.general,jira.global,atl.global,jira.dashboard,-_super/batch.js?agile_global_admin_condition=true&jag=true&jaguser=true&locale=en-US&whisper-enabled=true, line 3623: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: https://jira2.cotiviti.com/s/de36d8ffe1a833ee931a214fd1458055-CDN/-1ke5r3/805004/0a9bcc66822c507ebd7282fc3d66e03d/598a6a2f9a3fd1d399e2e1b453de6bed/_/download/contextbatch/js/atl.dashboard,atl.general,jira.general,jira.global,atl.global,jira.dashboard,-_super/batch.js?agile_global_admin_condition=true&jag=true&jaguser=true&locale=en-US&whisper-enabled=true, line 3623: SyntaxError: JSON.parse: unexpected character at line 11 column 1 of the JSON data
+JavaScript error: https://jira2.cotiviti.com/s/de36d8ffe1a833ee931a214fd1458055-CDN/-1ke5r3/805004/0a9bcc66822c507ebd7282fc3d66e03d/598a6a2f9a3fd1d399e2e1b453de6bed/_/download/contextbatch/js/atl.dashboard,atl.general,jira.general,jira.global,atl.global,jira.dashboard,-_super/batch.js?agile_global_admin_condition=true&jag=true&jaguser=true&locale=en-US&whisper-enabled=true, line 3623: SyntaxError: JSON.parse: unexpected character at line 11 column 1 of the JSON data
+JavaScript error: https://jira2.cotiviti.com/s/de36d8ffe1a833ee931a214fd1458055-CDN/-1ke5r3/805004/0a9bcc66822c507ebd7282fc3d66e03d/598a6a2f9a3fd1d399e2e1b453de6bed/_/download/contextbatch/js/atl.dashboard,atl.general,jira.general,jira.global,atl.global,jira.dashboard,-_super/batch.js?agile_global_admin_condition=true&jag=true&jaguser=true&locale=en-US&whisper-enabled=true, line 3623: SyntaxError: JSON.parse: unexpected character at line 11 column 1 of the JSON data
+JavaScript error: https://jira2.cotiviti.com/s/de36d8ffe1a833ee931a214fd1458055-CDN/-1ke5r3/805004/0a9bcc66822c507ebd7282fc3d66e03d/598a6a2f9a3fd1d399e2e1b453de6bed/_/download/contextbatch/js/atl.dashboard,atl.general,jira.general,jira.global,atl.global,jira.dashboard,-_super/batch.js?agile_global_admin_condition=true&jag=true&jaguser=true&locale=en-US&whisper-enabled=true, line 3623: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
