@@ -13,10 +13,10 @@ screen.tracer(0,10)
 
 no_of_turtle = 100
 while (no_of_turtle > 10):
-	no_of_turtle = int(raw_input('How many turtles?\n'))
+	no_of_turtle = int(input('How many turtles?\n'))
 	if no_of_turtle > 10:
 		print('Ten is the limit. Please try again!!')
-		no_of_turtle = int(raw_input('How many turtles?\n'))	
+		no_of_turtle = int(input('How many turtles?\n'))	
 	
 
 position = turtle.Turtle()
@@ -265,7 +265,7 @@ def ready_set_go():
 
 		screen.update()
 
-		raw_input("Press enter to continue...")
+		input("Press enter to continue...")
 	
 		# Ready Set Go Sound		
 		os.system("aplay ready_set_go.wav&")	
@@ -366,7 +366,7 @@ while True:
 
 
 		
-		race_again = raw_input("Press 'y' to race again\n")	
+		race_again = input("Press 'y' to race again\n")	
 		if race_again == 'y':
 			reset()
 			screen.update()
